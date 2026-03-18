@@ -119,7 +119,7 @@
         .box___style_4(data-aos="zoom-in")
           h4.mb-0.text-center Secuencia general del ciclo contable
 
-    .fondo___carrusel
+    .fondo___carrusel.fit___carrusel
       .px-5
         SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-0
           .tarjeta.color-acento-botones.p-4
