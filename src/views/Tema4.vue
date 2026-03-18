@@ -263,19 +263,19 @@
           img(src="@/assets/curso/temas/img2.png", alt="" ).m-auto
       .col-xl
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="zoom-in")
-          .row(titulo="Activo").ajuste-cajaAcordion
+          .row.align-items-center(titulo="Activo").ajuste-cajaAcordion
             .col-xl-7.mb-4
               p.mb-0 El activo representa recursos controlados por la entidad que generarán beneficios futuros, como caja, inventarios o cuentas por cobrar. Generalmente tiene naturaleza débito: aumenta en el debe y disminuye en el haber.
             .col-xl-5.mb-3
               figure
                 img(src='@/assets/curso/temas/img41.jpg', alt='').m-auto 
-          .row(titulo="Pasivo").ajuste-cajaAcordion
+          .row.align-items-center(titulo="Pasivo").ajuste-cajaAcordion
             .col-xl-7.mb-4
               p.mb-0 El pasivo representa obligaciones presentes que implican salida futura de recursos, como proveedores o impuestos por pagar. Generalmente tiene naturaleza crédito: aumenta en el haber y disminuye en el debe.
             .col-xl-5.mb-3
               figure
                 img(src='@/assets/curso/temas/img42.jpg', alt='').m-auto 
-          .row(titulo="Patrimonio").ajuste-cajaAcordion
+          .row.align-items-center(titulo="Patrimonio").ajuste-cajaAcordion
             .col-xl-7.mb-4
               p.mb-0 El patrimonio es el valor residual del activo después de restar los pasivos y representa la participación de los propietarios. Generalmente tiene naturaleza crédito: aumenta en el haber y disminuye en el debe.
             .col-xl-5.mb-3

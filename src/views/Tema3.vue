@@ -31,37 +31,37 @@
     .row.justify-content-center.mb-5
       .col-xl-10
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="zoom-in")
-          .row(titulo="Identificación del hecho económico").ajuste-cajaAcordion
+          .row.align-items-center(titulo="Identificación del hecho económico").ajuste-cajaAcordion
             .col-xl-7.mb-4
               p.mb-0 Se reconoce qué ocurrió, cuándo ocurrió y qué impacto tiene (entrada o salida de recursos, obligaciones, ingresos, costos o gastos).
             .col-xl-5.mb-3
               figure
                 img(src='@/assets/curso/temas/img20.jpg', alt='').m-auto 
-          .row(titulo="Recolección del soporte").ajuste-cajaAcordion
+          .row.align-items-center(titulo="Recolección del soporte").ajuste-cajaAcordion
             .col-xl-7.mb-4
               p.mb-0 Se verifica el documento que prueba la transacción (origen, fechas, valores, responsables y consistencia).
             .col-xl-5.mb-3
               figure
                 img(src='@/assets/curso/temas/img21.jpg', alt='').m-auto 
-          .row(titulo="Registro inicial (asiento)").ajuste-cajaAcordion
+          .row.align-items-center(titulo="Registro inicial (asiento)").ajuste-cajaAcordion
             .col-xl-7.mb-4
               p.mb-0 Se elabora el registro contable con base en la evidencia, de manera que refleje la naturaleza del movimiento.
             .col-xl-5.mb-3
               figure
                 img(src='@/assets/curso/temas/img22.jpg', alt='').m-auto 
-          .row(titulo="Mayorización y acumulación").ajuste-cajaAcordion
+          .row.align-items-center(titulo="Mayorización y acumulación").ajuste-cajaAcordion
             .col-xl-7.mb-4
               p.mb-0 Se agrupan los movimientos para conocer saldos por cuenta y facilitar controles y conciliaciones.
             .col-xl-5.mb-3
               figure
                 img(src='@/assets/curso/temas/img23.jpg', alt='').m-auto 
-          .row(titulo="Verificaciones y ajustes").ajuste-cajaAcordion
+          .row.align-items-center(titulo="Verificaciones y ajustes").ajuste-cajaAcordion
             .col-xl-7.mb-4
               p.mb-0 Se revisan diferencias (por ejemplo, conciliación bancaria, depreciaciones, provisiones, inventarios, causaciones) y se registran ajustes cuando aplique.
             .col-xl-5.mb-3
               figure
                 img(src='@/assets/curso/temas/img24.jpg', alt='').m-auto 
-          .row(titulo="Preparación de reportes del periodo").ajuste-cajaAcordion
+          .row.align-items-center(titulo="Preparación de reportes del periodo").ajuste-cajaAcordion
             .col-xl-7.mb-4
               p.mb-0 Se consolida la información para elaborar estados e informes, y se realizan procesos de cierre cuando corresponda.
             .col-xl-5.mb-3
@@ -126,42 +126,42 @@
             .row.justify-content-center.mb-4
               .col-8
                 img(src='@/assets/curso/temas/img28.svg' style="max-width: 90px").m-auto
-            p.mb-0 Hecho económico (transacción).
+            p.mb-0.text-center Hecho económico (transacción).
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-4
               .col-8
                 img(src='@/assets/curso/temas/img29.svg' style="max-width: 90px").m-auto
-            p.mb-0  Soporte (documento fuente).
+            p.mb-0.text-center  Soporte (documento fuente).
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-4
               .col-8
                 img(src='@/assets/curso/temas/img30.svg' style="max-width: 90px").m-auto
-            p.mb-0 Análisis (contable).
+            p.mb-0.text-center Análisis (contable).
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-4
               .col-8
                 img(src='@/assets/curso/temas/img31.svg' style="max-width: 90px").m-auto
-            p.mb-0 Registro (asiento).
+            p.mb-0.text-center Registro (asiento).
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-4
               .col-8
                 img(src='@/assets/curso/temas/img32.svg' style="max-width: 90px").m-auto
-            p.mb-0 Mayorización (libro mayor).
+            p.mb-0.text-center Mayorización (libro mayor).
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-4
               .col-8
                 img(src='@/assets/curso/temas/img33.svg' style="max-width: 90px").m-auto
-            p.mb-0 Verificación (balance de prueba).
+            p.mb-0.text-center Verificación (balance de prueba).
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-4
               .col-8
                 img(src='@/assets/curso/temas/img34.svg' style="max-width: 90px").m-auto
-            p.mb-0 Ajustes y cierre del periodo.
+            p.mb-0.text-center Ajustes y cierre del periodo.
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.mb-4
               .col-8
                 img(src='@/assets/curso/temas/img35.svg' style="max-width: 90px").m-auto
-            p.mb-0 Información financiera (reportes).
+            p.mb-0.text-center Información financiera (reportes).
 
 </template>
 

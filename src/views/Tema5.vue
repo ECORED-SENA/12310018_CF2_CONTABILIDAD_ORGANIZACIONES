@@ -123,43 +123,43 @@
               .col-12
                 .box___style_9.text-center
                   h2.mb-0 1
-            p.mb-0 Leer la transacción ¿qué pasó? ¿por cuánto?.
+            p.mb-0.text-center Leer la transacción ¿qué pasó? ¿por cuánto?.
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.align-items-center.mb-4
               .col-12
                 .box___style_9.text-center
                   h2.mb-0 2
-            p.mb-0 Identificar las cuentas afectadas (minimo dos).
+            p.mb-0.text-center Identificar las cuentas afectadas (minimo dos).
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.align-items-center.mb-4
               .col-12
                 .box___style_9.text-center
                   h2.mb-0 3
-            p.mb-0 Idea estupenda determinar la naturaleza (activo, pasivo, patrimonio, ingreso, costo, gasto).
+            p.mb-0.text-center Idea estupenda determinar la naturaleza (activo, pasivo, patrimonio, ingreso, costo, gasto).
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.align-items-center.mb-4
               .col-12
                 .box___style_9.text-center
                   h2.mb-0 4
-            p.mb-0 Idea moderna definir el movimiento (débito o crédito).
+            p.mb-0.text-center Idea moderna definir el movimiento (débito o crédito).
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.align-items-center.mb-4
               .col-12
                 .box___style_9.text-center
                   h2.mb-0 5
-            p.mb-0 Idea fenomenal registrar en cuenta T (debe / haber).
+            p.mb-0.text-center Idea fenomenal registrar en cuenta T (debe / haber).
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.align-items-center.mb-4
               .col-12
                 .box___style_9.text-center
                   h2.mb-0 6
-            p.mb-0 Idea brillante verificar partida doble (suma débitos = suma créditos).
+            p.mb-0.text-center Idea brillante verificar partida doble (suma débitos = suma créditos).
           .tarjeta.color-acento-botones.p-4
             .row.justify-content-center.align-items-center.mb-4
               .col-12
                 .box___style_9.text-center
                   h2.mb-0 7
-            p.mb-0 Idea simple calcular saldos e interpretar (¿aumento? o ¿disminuyó?).
+            p.mb-0.text-center Idea simple calcular saldos e interpretar (¿aumento? o ¿disminuyó?).
           
         <!------------------------------------------ SUBTEMA 3 ------------------------------------------>
         Separador
