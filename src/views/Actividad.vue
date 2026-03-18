@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Fundamentos de contabilidad y registro de transacciones',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar el nivel de comprensión de los aprendices sobre los fundamentos de la contabilidad, la clasificación de soportes y el ciclo contable, así como su capacidad para registrar transacciones mediante el uso de la cuenta T y la aplicación de la partida doble, fortaleciendo la generación de información financiera confiable para la toma de decisiones organizacionales fundamentada en datos.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,28 +28,32 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es la función principal de la contabilidad en una organización?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Únicamente el pago de impuestos y otras cargas fiscales ante el estado y proveedores.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Transformar hechos cotidianos en información financiera ordenada, verificable y comparable.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Archivar documentos sin un orden específico, de manera libre y espontanea, según el criterio personal.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Reemplazar la toma de decisiones de la gerencia y buscar alternativas estratégicas.',
               esCorrecta: false,
             },
           ],
@@ -59,28 +63,32 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Qué característica debe tener un soporte contable para que el registro sea confiable?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Estar debidamente fechado y autorizado por quienes intervienen.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Ser únicamente un mensaje verbal, puede ser un texto corto o extenso.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Ser un documento siempre emitido por una entidad bancaria, con la información del producto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'No requiere firma si la transacción es económica, lo que importa es que tenga una descripción clara.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +97,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Qué ley regula en Colombia los principios y normas de contabilidad e información financiera (NIIF)?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Ley 100 de 1993.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Decreto 410 de 1971.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Ley 1314 de 2009.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Ley 115 de 1994.',
               esCorrecta: false,
             },
           ],
@@ -120,28 +129,30 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Quiénes se consideran usuarios externos de la información contable?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Directores generales y gerentes de área, según la organización.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Solamente los empleados de servicios generales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Inversionistas, prestamistas y entidades gubernamentales.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Los competidores directos e indirectos de la empresa.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +161,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Cuál de los siguientes es un ejemplo de soporte contable externo?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Nota de depreciación, con toda la información.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Comprobante de egreso, con valores correctos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Factura de compra enviada por un proveedor.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Nota de provisión, con descripciones claras.',
               esCorrecta: false,
             },
           ],
@@ -181,28 +193,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué documento se utiliza para realizar ajustes o disminuciones a una factura electrónica?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Nota débito electrónica.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Nota crédito electrónica.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Comprobante de ingreso.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Extracto bancario.',
               esCorrecta: false,
             },
           ],
@@ -212,29 +224,29 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            'Según el Código de Comercio, ¿cuánto tiempo se deben conservar los libros y papeles contables?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '2 años.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '5 años.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Permanentes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: '10 años.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -243,28 +255,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿En qué etapa del ciclo contable se agrupan los movimientos para conocer los saldos de cada cuenta?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Identificación del hecho económico.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Recolección del soporte.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Mayorización y acumulación.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Preparación de reportes.',
               esCorrecta: false,
             },
           ],
@@ -274,19 +286,33 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            '¿Qué representa la "Cuenta Contable" en el sistema de información?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Una lista detallada de todos los contactos de la empresa.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'La unidad básica para registrar y organizar la información financiera.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'El nombre del <i>software</i> contable y financiero, donde se registran las operaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Un número de cuenta bancaria corporativa, con todos los beneficios y costos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -295,18 +321,28 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            'Según su naturaleza, ¿qué cuentas aumentan con un registro en el Débito (Debe)?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Pasivo, Patrimonio e Ingresos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Pasivo y Gastos solamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Activo, Gastos y Costos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Patrimonio y Activos.',
               esCorrecta: false,
             },
           ],
@@ -315,20 +351,33 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Qué representa un "Pasivo" según el marco conceptual?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Obligaciones presentes de la entidad, surgidas a raíz de sucesos pasados.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Los bienes que posee la empresa, tales como terrenos, vehículos y maquinaria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'El aporte inicial de los socios, con el que se realiza la constitución de la empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Los gastos del mes, tales como: operacionales y no operacionales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,8 +385,133 @@ export default {
         },
         {
           id: 12,
+          texto: '¿En qué lado de la Cuenta T se registran los "Créditos"?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'A la izquierda (Debe).',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'En la parte superior.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'A la derecha (Haber).',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'En cualquier lado, depende de la cuenta.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 13,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Qué principio establece que "no hay deudor sin acreedor" y las sumas deben ser iguales?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Principio de prudencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Devengo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Partida doble.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Periodo contable.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 14,
+          texto:
+            'Si una cuenta tiene un total Débito de $100 y un total Crédito de $40, ¿cuál es su saldo?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Saldo acreedor de $60.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Saldo deudor de $60.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Saldo deudor de $140.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Saldo cero.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 15,
+          texto: '¿Cuál es la función del "Comprobante de Egreso"?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Respaldar el pago de una suma de dinero a un tercero.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Registrar ventas realizadas, producto de las operaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Registrar la depreciación de activos, como de la maquinaria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Solicitar un préstamo al banco, para incrementar el apalancamiento.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            'Los soportes internos son aquellos emitidos por la empresa para registrar operaciones que no afectan a terceros (como depreciaciones).',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -356,15 +530,36 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
-          id: 13,
+          id: 17,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            'En la Cuenta T, el nombre de la cuenta se escribe siempre en la parte inferior.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            'Las cuentas de Patrimonio son de naturaleza crédito, es decir, aumentan en el Haber.',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
@@ -377,10 +572,10 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
-          id: 14,
+          id: 19,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            'El ciclo contable es un proceso que ocurre una sola vez en la vida de la empresa.',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -398,10 +593,10 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
-          id: 15,
+          id: 20,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'La partida doble garantiza que la ecuación patrimonial (Activo = Pasivo + Patrimonio) se mantenga en equilibrio.',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
