@@ -511,18 +511,32 @@ export default {
         {
           id: 16,
           texto:
-            'Los soportes internos son aquellos emitidos por la empresa para registrar operaciones que no afectan a terceros (como depreciaciones).',
+            '¿Qué función cumplen los soportes contables dentro del proceso contable?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Eliminar la necesidad de registrar operaciones en los libros contables oficiales.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Sustituir los informes financieros en la toma de decisiones empresariales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Respaldar cada registro con evidencia verificable y trazable del proceso contable.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Reducir el uso de documentos físicos en procesos administrativos internos.',
               esCorrecta: false,
             },
           ],
@@ -532,19 +546,33 @@ export default {
         {
           id: 17,
           texto:
-            'En la Cuenta T, el nombre de la cuenta se escribe siempre en la parte inferior.',
+            '¿Qué sucede si una transacción no tiene soporte contable válido?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'El registro pierde validez y no puede considerarse confiable dentro del sistema contable.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Se puede registrar igualmente si existe conocimiento previo del hecho económico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Solo afecta el resultado del periodo sin alterar otros registros contables.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'No tiene impacto si el valor registrado coincide con el saldo esperado.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -553,19 +581,33 @@ export default {
         {
           id: 18,
           texto:
-            'Las cuentas de Patrimonio son de naturaleza crédito, es decir, aumentan en el Haber.',
+            '¿Cuál es el propósito principal de la etapa de verificación en el ciclo contable?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Registrar las transacciones iniciales según los documentos soporte disponibles.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Clasificar las cuentas según su naturaleza dentro del plan contable definido.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Identificar los hechos económicos antes de iniciar el registro contable formal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Revisar coherencia de saldos y realizar ajustes necesarios en registros contables.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -574,19 +616,33 @@ export default {
         {
           id: 19,
           texto:
-            'El ciclo contable es un proceso que ocurre una sola vez en la vida de la empresa.',
+            '¿Qué indica un saldo deudor en una cuenta contable al finalizar el periodo?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Que el total del haber es mayor que el debe en dicha cuenta contable.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Que el total del debe es mayor que el haber en dicha cuenta contable.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Que no existen movimientos registrados durante el periodo contable evaluado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Que los valores registrados en ambos lados son exactamente iguales.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -595,18 +651,32 @@ export default {
         {
           id: 20,
           texto:
-            'La partida doble garantiza que la ecuación patrimonial (Activo = Pasivo + Patrimonio) se mantenga en equilibrio.',
+            '¿Cuál es el objetivo principal de la cuenta T en el registro contable?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Sustituir los libros contables oficiales en el registro formal de operaciones.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Clasificar las empresas según su actividad económica y tamaño empresarial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Visualizar los movimientos y comprobar el equilibrio entre débitos y créditos registrados.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Determinar el valor de los activos sin considerar los pasivos existentes.',
               esCorrecta: false,
             },
           ],
