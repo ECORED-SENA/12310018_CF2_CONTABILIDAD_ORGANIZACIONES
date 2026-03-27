@@ -45,7 +45,7 @@
           .col-8
             img(src='@/assets/curso/temas/img7.svg' style="max-width: 90px").m-auto
         h4.mb-3.estilo-text Nota crédito electrónica
-        p.mb-0 Respalda disminuciones o ajustes posteriores a una factura (por devoluciones, descuentos o correcciones), afectando el valor reconocido originalmente. (DIAN, s.f.)..
+        p.mb-0 Respalda disminuciones o ajustes posteriores a una factura (por devoluciones, descuentos o correcciones), afectando el valor reconocido originalmente. (DIAN, s.f.).
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
@@ -57,7 +57,7 @@
           .col-8
             img(src='@/assets/curso/temas/img7.svg' style="max-width: 90px").m-auto
         h4.mb-3.estilo-text Documento equivalente electrónico POS
-        p.mb-0 Respalda ventas soportadas con tiquete POS; cuando identifica al comprador puede otorgar beneficios fiscales al adquiriente. (DIAN).
+        p.mb-0 Respalda ventas soportadas con tiquete POS; cuando identifica al comprador, puede otorgar beneficios fiscales al adquiriente. (DIAN).
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8
@@ -81,7 +81,7 @@
           .col-8
             img(src='@/assets/curso/temas/img7.svg' style="max-width: 90px").m-auto
         h4.mb-3.estilo-text Extracto bancario
-        p.mb-0 Evidencia movimientos y saldos en cuentas bancarias; soporta entradas/salidas de efectivo y sirve de base para conciliaciones. (Decreto 2649 , 1993).
+        p.mb-0 Evidencia movimientos y saldos en cuentas bancarias; soporta entradas/salidas de efectivo y sirve de base para conciliaciones. (Decreto 2649, 1993).
       .tarjeta.color-acento-botones.p-4
         .row.justify-content-center.mb-3
           .col-8

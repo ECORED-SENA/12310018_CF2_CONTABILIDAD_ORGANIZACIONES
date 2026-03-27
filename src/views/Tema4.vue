@@ -111,7 +111,7 @@
                   .box___style_7.mb-3
                     figure(data-aos="fade-right")
                       img(src='@/assets/curso/temas/img39.svg', alt="" style="max-width: 110px").m-auto
-                    h5.text-center Naturaleza “débito”: aumenta en “debe” - disminuye en “haber”
+                    h5.text-center Naturaleza “débito”: aumenta en “debe” - disminuye en “haber”.
                 p.mb-0 #[b Activos]
                 ul.fa-ul.mb-3
                   li.mb-0
@@ -129,7 +129,7 @@
                   .box___style_7.mb-3
                     figure(data-aos="fade-right")
                       img(src='@/assets/curso/temas/img39.svg', alt="" style="max-width: 110px").m-auto
-                    h5.text-center Naturaleza “crédito”: aumenta en “haber” - disminuye en “debe”
+                    h5.text-center Naturaleza “crédito”: aumenta en “haber” - disminuye en “debe”.
                 p.mb-0 #[b Pasivos]
                 ul.fa-ul.mb-3
                   li.mb-0
@@ -265,19 +265,19 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")(data-aos="zoom-in")
           .row.align-items-center(titulo="Activo").ajuste-cajaAcordion
             .col-xl-7.mb-4
-              p.mb-0 El activo representa recursos controlados por la entidad que generarán beneficios futuros, como caja, inventarios o cuentas por cobrar. Generalmente tiene naturaleza débito: aumenta en el debe y disminuye en el haber.
+              p.mb-0 El activo representa recursos controlados por la entidad que generarán beneficios futuros, como caja, inventarios o cuentas por cobrar. Generalmente, tiene naturaleza débito: aumenta en el debe y disminuye en el haber.
             .col-xl-5.mb-3
               figure
                 img(src='@/assets/curso/temas/img41.jpg', alt='').m-auto 
           .row.align-items-center(titulo="Pasivo").ajuste-cajaAcordion
             .col-xl-7.mb-4
-              p.mb-0 El pasivo representa obligaciones presentes que implican salida futura de recursos, como proveedores o impuestos por pagar. Generalmente tiene naturaleza crédito: aumenta en el haber y disminuye en el debe.
+              p.mb-0 El pasivo representa obligaciones presentes que implican salida futura de recursos, como proveedores o impuestos por pagar. Generalmente, tiene naturaleza crédito: aumenta en el haber y disminuye en el debe.
             .col-xl-5.mb-3
               figure
                 img(src='@/assets/curso/temas/img42.jpg', alt='').m-auto 
           .row.align-items-center(titulo="Patrimonio").ajuste-cajaAcordion
             .col-xl-7.mb-4
-              p.mb-0 El patrimonio es el valor residual del activo después de restar los pasivos y representa la participación de los propietarios. Generalmente tiene naturaleza crédito: aumenta en el haber y disminuye en el debe.
+              p.mb-0 El patrimonio es el valor residual del activo después de restar los pasivos y representa la participación de los propietarios. Generalmente, tiene naturaleza crédito: aumenta en el haber y disminuye en el debe.
             .col-xl-5.mb-3
               figure
                 img(src='@/assets/curso/temas/img43.jpg', alt='').m-auto 
@@ -300,12 +300,12 @@
             h4.txt--purpura.mb-4 Activo
             p #[b Qué representa]: recursos controlados por la organización.
             p #[b Ejemplo]: caja - bancos - inventarios - cuentas por cobrar - equipos.
-            p #[b Naturaleza Usual]: débito: aumenta en el debe y disminuye en el haber.
-            p #[b Regla General]: aumenta en el debe y disminuye en el haber.
+            p #[b Naturaleza usual]: débito: aumenta en el debe y disminuye en el haber.
+            p #[b Regla general]: aumenta en el debe y disminuye en el haber.
             p #[b Ejemplo]:
             p Ventas de contado caja
-            p.color___arrowcircle (Activo) Aumenta <i class="fas fa-arrow-alt-circle-right"></i> Debe
-            p.color___arrowcircle (Ingresos) Aumenta <i class="fas fa-arrow-alt-circle-right"></i> Haber
+            p.color___arrowcircle (Activo) aumenta <i class="fas fa-arrow-alt-circle-right"></i> debe
+            p.color___arrowcircle (Ingresos) aumenta <i class="fas fa-arrow-alt-circle-right"></i> haber
 
       .py-3.py-md-4(titulo="Patrimonio")
         .row.justify-content-center.align-items-center
@@ -316,12 +316,12 @@
             h4.txt--purpura.mb-4 Patrimonio
             p #[b Qué representa]: participación residual de los propietarios.
             p #[b Ejemplo]: aportes, reservas, resultados acumulados.
-            p #[b Naturaleza Usual]: crédito aumenta en el debe y disminuye en el haber.
-            p #[b Regla General]: aumenta en el haber y disminuye en el debe.
+            p #[b Naturaleza usual]: crédito aumenta en el debe y disminuye en el haber.
+            p #[b Regla general]: aumenta en el haber y disminuye en el debe.
             p #[b Ejemplo]:
             p Ventas de contado caja
-            p.color___arrowcircle (Activo) Aumenta <i class="fas fa-arrow-alt-circle-right"></i> Debe capital
-            p.color___arrowcircle (Patrimonio) Aumenta <i class="fas fa-arrow-alt-circle-right"></i> Haber
+            p.color___arrowcircle (Activo) aumenta <i class="fas fa-arrow-alt-circle-right"></i> debe capital
+            p.color___arrowcircle (Patrimonio) aumenta <i class="fas fa-arrow-alt-circle-right"></i> haber
       
       .py-3.py-md-4(titulo="Pasivo")
         .row.justify-content-center.align-items-center
@@ -332,12 +332,12 @@
             h4.txt--purpura.mb-4 Pasivo
             p #[b Qué representa]: obligaciones presentes con terceros.
             p #[b Ejemplo]: proveedores, préstamos, impuestos por pagar, nómina por pagar.
-            p #[b Naturaleza Usual]: crédito aumenta en el debe y disminuye en el haber.
-            p #[b Regla General]: aumenta en el debe y disminuye en el haber.
+            p #[b Naturaleza usual]: crédito aumenta en el debe y disminuye en el haber.
+            p #[b Regla general]: aumenta en el debe y disminuye en el haber.
             p #[b Ejemplo]:
             p Compra a crédito inventarios
-            p.color___arrowcircle (Activo) Aumenta <i class="fas fa-arrow-alt-circle-right"></i> Debe proveedores
-            p.color___arrowcircle (Pasivo) Aumenta  <i class="fas fa-arrow-alt-circle-right"></i> Haber
+            p.color___arrowcircle (Activo) aumenta <i class="fas fa-arrow-alt-circle-right"></i> debe proveedores
+            p.color___arrowcircle (Pasivo) aumenta  <i class="fas fa-arrow-alt-circle-right"></i> haber
 
     .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -363,7 +363,7 @@
             .row.justify-content-center.align-items-center
               .col-xl-6.mb-4
                 h4 Ingresos
-                p.mb-0 Los ingresos son incrementos de beneficios económicos que aumentan el patrimonio, distintos de aportes de propietarios. Generalmente tienen naturaleza crédito, pues aumentan en el haber.
+                p.mb-0 Los ingresos son incrementos de beneficios económicos que aumentan el patrimonio, distintos de aportes de propietarios. Generalmente, tienen naturaleza de crédito, pues aumentan en el haber.
               .col-xl-6
                 figure
                   img(src='@/assets/curso/temas/img48.png', alt='' style="max-width: 500px").m-auto
@@ -560,23 +560,23 @@
             tbody
               tr.ajuste-color-tabla
                 td.ajuste-border-tabla.texto-left Caja (Activo)
-                td.ajuste-border-tabla.texto-left $5.500.000
-                td.ajuste-border-tabla.texto-left $1.500.000
+                td.ajuste-border-tabla.texto-right $5.500.000
+                td.ajuste-border-tabla.texto-right $1.500.000
                 td.texto-left Saldo deudor $4.000.000: efectivo disponible
               tr
                 td.ajuste-border-tabla.texto-left Proveedores (Pasivo)
-                td.ajuste-border-tabla.texto-left $3.000.000
-                td.ajuste-border-tabla.texto-left $8.000.000
+                td.ajuste-border-tabla.texto-right $3.000.000
+                td.ajuste-border-tabla.texto-right $8.000.000
                 td.texto-left Saldo acreedor $5.000.000: obligación pendiente
               tr.ajuste-color-tabla
                 td.ajuste-border-tabla.texto-left Ventas (Ingreso)
-                td.ajuste-border-tabla.texto-left $0
-                td.ajuste-border-tabla.texto-left $12.000.000
+                td.ajuste-border-tabla.texto-right $0
+                td.ajuste-border-tabla.texto-right $12.000.000
                 td.texto-left Saldo acreedor $12.000.000: ingresos acumulados del periodo
               tr
                 td.ajuste-border-tabla.texto-left Servicios públicos (Gasto)
-                td.ajuste-border-tabla.texto-left $600.000
-                td.ajuste-border-tabla.texto-left $0
+                td.ajuste-border-tabla.texto-right $600.000
+                td.ajuste-border-tabla.texto-right $0
                 td.texto-left Saldo deudor $600.000: gasto acumulado del periodo
               tr.ajuste-color-tabla
                 td.ajuste-border-tabla.texto-left Situación en la cuenta

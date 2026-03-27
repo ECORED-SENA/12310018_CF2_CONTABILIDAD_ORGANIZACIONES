@@ -64,7 +64,7 @@
         #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.1 Contabilidad en la organización: concepto, utilidad y usuarios de la información
 
-        p.mb-5 La contabilidad organiza hechos económicos para generar información útil, facilitando el control y la toma decisiones. En el siguiente pódcast, se profundizará en el concepto de contabilidad, su utilidad y sus usuarios.
+        p.mb-5 La contabilidad organiza hechos económicos para generar información útil, facilitando el control y la toma de decisiones. En el siguiente pódcast, se profundizará en el concepto de contabilidad, su utilidad y sus usuarios.
 
         .row.align-items-center.m-0
           .col-xl
