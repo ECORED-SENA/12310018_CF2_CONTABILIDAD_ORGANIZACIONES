@@ -177,8 +177,8 @@
 
     figure(data-aos="zoom-in").mb-5
       .video.mb-1
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption(data-aos="zoom-in") #[b Video]: ejemplo de registro y verificación con cuentas T.
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Lq_TWSvbMjg" title="Ejemplo de registro y verificación con cuentas T" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption(data-aos="zoom-in") #[b Video]. Ejemplo de registro y verificación con cuentas T.
     
     p.mb-0 En este capítulo se presentó la cuenta T como una herramienta gráfica que permite representar, de forma clara, cómo se registran los movimientos contables en el debe y el haber. Se explicó su relación directa con la partida doble, mostrando que toda transacción debe mantener el equilibrio entre débitos y créditos, y que la cuenta T facilita comprobar esa coherencia antes de elaborar asientos y consolidar la información. También se desarrolló el procedimiento de registro en cuenta T, desde la identificación de las cuentas afectadas y su naturaleza, hasta la determinación de saldos, para interpretar el efecto acumulado de los movimientos y asegurar que el registro sea consistente.
 
