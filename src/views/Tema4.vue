@@ -497,7 +497,7 @@
                       i.fas.fa-arrow-alt-circle-right
                     | Cuenta sin saldo al cierre del periodo.
     
-    p.mb-5 Los pasos para calcular, con su respectivo procedimiento, para obtener el saldo de una cuenta contable, se detallan en la siguiente figura:
+    p.mb-5 Los pasos para calcular, con su respectivo procedimiento, para obtener el saldo de una cuenta contable, se detallan a continuación:
 
     .row.justify-content-center.mb-5
       .col-xl-10
@@ -535,7 +535,7 @@
               p.mb-0 Determine el tipo de saldo: Deudor si DEBE > HABER. Acreedor si HABER > DEBE. Saldo Cero si son iguales.
           .row
             .col-lg
-              h3 Paso 4
+              h3 Paso 5
               p.mb-0 Interprete el saldo según la clase de cuenta (Activo, Pasivo, Patrimonio, Ingreso, Costo o Gasto) y revise si es coherente.
             .col-auto(data-aos="zoom-in").espacio___movil_3
               figure

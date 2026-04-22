@@ -224,7 +224,7 @@ export default {
     },
     {
       referencia:
-        'actualicese.com. (18 de 03 de 2016). Comprobantes de contabilidad: ¿sabe cuáles son? Obtenido de',
+        'Actualícese. (18 de 03 de 2016). Comprobantes de contabilidad: ¿sabe cuáles son? Obtenido de',
       link:
         'https://actualicese.com/archivo/comprobantes-de-contabilidad-sabe-cuales-son/',
     },
@@ -257,7 +257,7 @@ export default {
         'https://www.dian.gov.co/impuestos/factura-electronica/Documents/Abece-POS-Electronico-documento-equivalente.pdf ',
     },
     {
-      referencia: 'DIAN. (s.f.). micrositios.Dian.gov.co. Obtenido de',
+      referencia: 'DIAN. (s.f.). ¿Qué es la Factura Electrónica? Obtenido de',
       link:
         'https://micrositios.dian.gov.co/sistema-de-facturacion-electronica/factura-electronica/ ',
     },
@@ -318,8 +318,8 @@ export default {
     },
     {
       referencia:
-        'Unir. (21 de 07 de 2021). Unir - La Universidad en Internet. Obtenido de',
-      link: 'https://www.unir.net/revista/empresa/ciclo-contable/ ',
+        'UNIR. (2021, 21 de julio). Ciclo contable: qué es y cuáles son sus etapas. UNIR - La Universidad en Internet.',
+      link: 'https://www.unir.net/revista/empresa/ciclo-contable/',
     },
   ],
   creditos: [
@@ -344,7 +344,7 @@ export default {
         {
           nombre: 'Germán Adolfo Rodríguez Pulido',
           cargo: 'Experto temático',
-          centro: 'Centro  - Regional Risaralda',
+          centro: 'Centro de Comercio y Servicios - Regional Risaralda',
         },
         {
           nombre: 'Paola Andrea Tello Zambrano',
